@@ -1,18 +1,16 @@
 # Syderial
 
-The system of record for intelligence.
+**The system of record for intelligence.**
 
-A signed, bitemporal record of what an agent knew, what it was allowed to see, and what it did. It runs in the inference path, so nothing reaches the model around it.
+Syderial is a governed continuity plane for people and agents. It holds the context of record for the work, signed and provenance-bearing, and governs every read and every action by policy. People and agents work from the same record, each within what they are cleared to see and allowed to do, and every step can be verified afterward.
 
-## What Syderial keeps
+## What it does
 
-- **The journal.** Signed entries, posted once. Each line cites its evidence. Corrections are new entries, and the chain of entries is the ledger.
-- **Information flow control.** Every claim and every request carries a label. Information flows to a reader only when the reader's clearance dominates the label on every axis. The same rule governs actions.
-- **Receipts.** Each served context and each action closes with a receipt: what was read, under which clearance, citing which entries.
-
-From the journal, Syderial compiles the context of record: cleared, cited context, with information flow control on every read.
-
-The record for the life of an asset.
+- **Governs.** Policy decides what each person and each agent may see and do, before it happens. Labels travel with every claim and every request, and an agent never exceeds the authority of the person it acts for.
+- **Grounds.** Answers and actions rest on cited, signed entries in the context of record, or say plainly that the record does not know.
+- **Carries continuity.** The record holds what was decided, by whom, on what evidence, and what changed, across the people, models and vendors that come and go. The record for the life of an asset.
+- **Joins people and agents.** Agents propose and people confirm what matters. Both work from the same record and write back to it.
+- **Proves.** Every step is signed and hash-chained, then anchored to independent timestamps, so it can be verified outside the tenant.
 
 ## Links
 
